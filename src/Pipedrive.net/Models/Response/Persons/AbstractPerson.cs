@@ -142,5 +142,38 @@ namespace Pipedrive
 
         [JsonProperty("cc_email")]
         public string CcEmail { get; set; }
+
+        [JsonProperty("postal_address")]
+        public string Address { get; set; }
+
+        [JsonProperty("postal_address_subpremise")]
+        public string AddressSubpremise { get; set; }
+
+        [JsonProperty("postal_address_street_number")]
+        public string AddressStreetNumber { get; set; }
+
+        [JsonProperty("postal_address_route")]
+        public string AddressRoute { get; set; }
+
+        [JsonProperty("postal_address_sublocality")]
+        public string AddressSublocality { get; set; }
+
+        [JsonProperty("postal_address_locality")]
+        public string AddressLocality { get; set; }
+
+        [JsonProperty("postal_address_admin_area_level_1")]
+        public string AddressAdminAreaLevel1 { get; set; }
+
+        [JsonProperty("postal_address_admin_area_level_2")]
+        public string AddressAdminAreaLevel2 { get; set; }
+
+        [JsonProperty("postal_address_country")]
+        public string AddressCountry { get; set; }
+
+        [JsonProperty("postal_address_postal_code")]
+        public string AddressPostalCode { get; set; }
+
+        [JsonProperty("postal_address_formatted_address")]
+        public string AddressFormattedAddress { get; set; }
     }
 }
