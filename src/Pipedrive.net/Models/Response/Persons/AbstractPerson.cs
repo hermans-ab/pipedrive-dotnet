@@ -134,6 +134,9 @@ namespace Pipedrive
         [JsonProperty("label")]
         public long? Label { get; set; }
 
+        [JsonProperty("label_ids")]
+        public IEnumerable<long> LabelIds { get; set; } = new List<long>();
+
         [JsonProperty("org_name")]
         public string OrgName { get; set; }
 
