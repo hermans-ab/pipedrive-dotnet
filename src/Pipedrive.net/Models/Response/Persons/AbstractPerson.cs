@@ -98,6 +98,9 @@ namespace Pipedrive
         [JsonProperty("update_time")]
         public DateTime? UpdateTime { get; set; }
 
+        [JsonProperty("delete_time")]
+        public DateTime? DeleteTime { get; set; }
+
         [JsonProperty("visible_to")]
         public Visibility VisibleTo { get; set; }
 
